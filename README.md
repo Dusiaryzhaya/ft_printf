@@ -5,13 +5,13 @@ The project focuses on formatted output, variadic functions, and buffer manageme
 Key Features:
 
 Handles various format specifiers:
-        %c → Character
-        %s → String
-        %p → Pointer address
-        %d / %i → Integer
-        %u → Unsigned integer
-        %x / %X → Hexadecimal
-        %% → Percent sign
+ - %c → Character
+ - %s → String
+ - %p → Pointer address
+ - %d / %i → Integer
+ - %u → Unsigned integer
+ - %x / %X → Hexadecimal
+ - %% → Percent sign
         
 Uses va_list and va_arg for handling variable arguments.
 Optimized output buffering to minimize write calls.
